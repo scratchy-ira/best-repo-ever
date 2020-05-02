@@ -7,7 +7,7 @@ public with sharing class StringArrayTest
 		Integer			i;
 
 		return_value = new List <String>();
-		for (i = 0; i < n; i++)
+		for (i = 0; i < number; i++)
 		{
 			myArray.add('Test ' + i);
 			System.debug(myArray[i]);
