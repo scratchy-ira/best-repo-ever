@@ -1,7 +1,7 @@
 public with sharing class StringArrayTest
 {
 
-	public static List<String> StringArrayTest(Integer nb)
+	public static List<String> generateStringArray(Integer nb)
 	{
 		List <String>	myArray;
 		Integer			i;
