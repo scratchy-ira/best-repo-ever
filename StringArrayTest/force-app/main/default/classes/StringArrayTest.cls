@@ -1,13 +1,13 @@
 public with sharing class StringArrayTest
 {
 
-	public static List<String> StringArrayTest(Integer number)
+	public static List<String> StringArrayTest(Integer nb)
 	{
 		List <String>	myArray;
 		Integer			i;
 
-		return_value = new List <String>();
-		for (i = 0; i < number; i++)
+		myArray = new List <String>();
+		for (i = 0; i < nb; i++)
 		{
 			myArray.add('Test ' + i);
 			System.debug(myArray[i]);
